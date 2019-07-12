@@ -1,5 +1,6 @@
 <template>
   <div class="section is-vcentered is-hcentered">
+    <p>Hello world</p>
     <div class="new-todo-container">
       <form v-on:submit.prevent="doSomething">
         <input v-model="newTodo" type="text" class="input" />
